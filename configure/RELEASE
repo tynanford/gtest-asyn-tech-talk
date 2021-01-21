@@ -29,6 +29,7 @@
 #SNCSEQ = $(MODULES)/seq-ver
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
+GTEST = /home/tford/epics/support/gtest
 ASYN = /home/tford/epics/support/asyn
 EPICS_BASE = /home/tford/epics/epics-base
 

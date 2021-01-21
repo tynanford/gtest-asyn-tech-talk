@@ -27,6 +27,12 @@ USR_CXXFLAGS += -std=c++11
 portDriver_LIBS += asyn 
 portDriver_LIBS += portDriverSupport 
 
+### GTest Rules
+GTESTPROD_HOST += testPortDriver
+testPortDriver_SRCS += testPortDriver.cpp
+GTESTS += testPortDriver
+
+
 # portDriver_registerRecordDeviceDriver.cpp derives from portDriver.dbd
 portDriver_SRCS += portDriver_registerRecordDeviceDriver.cpp
 
